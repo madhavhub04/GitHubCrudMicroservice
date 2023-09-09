@@ -11,6 +11,7 @@ import org.springframework.web.client.RestTemplate;
 public class MicroserviceUserHotlApplication {
 
 	public static void main(String[] args) {
+		
 		SpringApplication.run(MicroserviceUserHotlApplication.class, args);
 		
 	}
