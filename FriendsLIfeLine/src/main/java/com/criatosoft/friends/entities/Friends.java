@@ -1,8 +1,7 @@
-package com.criatosoft.airlines.entities;
+package com.criatosoft.friends.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,14 +13,15 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-//@Table(name="AirIndia")
-public class AirIndia {
+public class Friends {
 	@Id
 	private String id;
 	private String name;
-	private String fromm;
-	private String to;
-	private String tikit;
+	private int age;
+	private String mobile;
+	private String email;
+	private String city;
+	
 	
 
 }
