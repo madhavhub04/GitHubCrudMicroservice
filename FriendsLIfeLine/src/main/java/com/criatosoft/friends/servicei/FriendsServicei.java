@@ -2,6 +2,8 @@ package com.criatosoft.friends.servicei;
 
 import java.util.List;
 
+import org.springframework.web.multipart.MultipartFile;
+
 import com.criatosoft.friends.entities.Friends;
 
 public interface FriendsServicei {
@@ -18,6 +20,10 @@ public interface FriendsServicei {
 	//deleteOne
 	
 	void deleteOne(String id);
+
+	void sendMailWithAttachment(MultipartFile photo, Friends f);
+
+	void saveMailDetails(Friends f);
 	
 
 }
